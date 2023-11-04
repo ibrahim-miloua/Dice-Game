@@ -4,7 +4,7 @@ function imageFunc(pos){
 
     var diceName=  "dice"+randomNumber+".png"// dice1.png -6
     
-    var image = diceName; //full name
+    var image = "images/"+diceName; //full name
     
     var image1 = document.querySelectorAll("img")[pos];
     
